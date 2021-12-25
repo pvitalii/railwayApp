@@ -1,0 +1,6 @@
+export const ADMIN_ROUTE = '/admin'
+export const LOGIN_ROUTE = '/login'
+export const REGISTRATION_ROUTE = '/registration'
+export const HOME_ROUTE = '/'
+export const RETURN_ROUTE = '/return'
+export const MYTICKETS_ROUTE = '/my-tickets'

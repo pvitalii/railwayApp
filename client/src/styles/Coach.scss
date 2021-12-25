@@ -1,0 +1,78 @@
+@import "vars";
+
+.coaches {
+  display:flex;
+  flex-direction: column;
+  row-gap: 30px;
+  column-gap: 50px;
+}
+
+.single-coach {
+  width: 125px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.single-coaches {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+}
+
+.coaches-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+.reserve-cancel {
+  background: white;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+  font-size: 36px;
+  color: $base-color;
+}
+
+.ticket-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.ticket-form {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  row-gap: 20px;
+}
+
+.ticket-info {
+  display: flex;
+  span {
+    font-size: 18px;
+    width: 250px;
+  }
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+
+}
+
+.ticket-main {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.ticket-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  align-items: center;
+}

@@ -1,0 +1,45 @@
+@import "vars";
+
+.auth {
+  height: calc((100vh - 120px));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.auth-area {
+  background: rgba(255,255,255,0.8);
+  border-radius: 25px;
+  display: flex;
+  font-size: 24px;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 25px 80px;
+  row-gap: 30px;
+}
+
+.auth-footer {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  row-gap: 10px;
+  button {
+    font-size: 18px;
+    text-transform: none;
+  }
+  label {
+    font-size: 16px;
+    text-align: center;
+  }
+  a {
+    color: $base-color
+  }
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  width: 400px;
+}

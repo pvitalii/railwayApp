@@ -1,0 +1,13 @@
+@import "vars";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: $base-font;
+}
+
+html {
+  background: url("../imgs/backgr-im.png") no-repeat center center fixed;
+  background-size: cover;
+}

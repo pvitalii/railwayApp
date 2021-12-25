@@ -1,0 +1,29 @@
+@import "vars";
+
+.train {
+  width: 1100px;
+  background: $train-background;
+  margin: 50px 0;
+  border-radius: 25px;
+  padding: 20px 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+}
+
+.train-main {
+  display: flex;
+  flex-direction: row;
+  column-gap: 150px;
+}
+
+span {
+  font-size: 24px;
+}
+
+.no-train {
+  padding: 20px 50px;
+  margin: 50px 0;
+  border-radius: 25px;
+  background: $train-background;
+}
